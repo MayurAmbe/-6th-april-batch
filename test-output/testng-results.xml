@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-04T13:23:14 GMT+05:30" name="Suite" finished-at="2022-08-04T13:23:14 GMT+05:30" duration-ms="394">
+    <groups>
+    </groups>
+    <test started-at="2022-08-04T13:23:14 GMT+05:30" name="Test" finished-at="2022-08-04T13:23:14 GMT+05:30" duration-ms="394">
+      <class name="Com.Amazon.TestClasses.TestNG.TC002_VerifyAddToCartFunctionality">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC002_VerifyAddToCartFunctionality@9d5509a]" started-at="2022-08-04T13:23:14 GMT+05:30" name="browserlaunch" finished-at="2022-08-04T13:23:14 GMT+05:30" duration-ms="13" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at Com.Amazon.TestClasses.TestNG.TestBaseClassAmazon.browserlaunch(TestBaseClassAmazon.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC002_VerifyAddToCartFunctionality@9d5509a]" started-at="2022-08-04T13:23:14 GMT+05:30" name="setupMethod" finished-at="1970-01-01T05:30:00 GMT+05:30" duration-ms="-1659599594776" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="AddTocart()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC002_VerifyAddToCartFunctionality@9d5509a]" started-at="2022-08-04T13:23:14 GMT+05:30" name="AddTocart" finished-at="2022-08-04T13:23:14 GMT+05:30" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at Com.Amazon.TestClasses.TestNG.TestBaseClassAmazon.browserlaunch(TestBaseClassAmazon.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTocart -->
+        <test-method is-config="true" signature="logot()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC002_VerifyAddToCartFunctionality@9d5509a]" started-at="2022-08-04T13:23:14 GMT+05:30" name="logot" finished-at="1970-01-01T05:30:00 GMT+05:30" duration-ms="-1659599594802" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC002_VerifyAddToCartFunctionality@9d5509a]" started-at="2022-08-04T13:23:14 GMT+05:30" name="teardown" finished-at="1970-01-01T05:30:00 GMT+05:30" duration-ms="-1659599594815" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Com.Amazon.TestClasses.TestNG.TC002_VerifyAddToCartFunctionality -->
+      <class name="Com.Amazon.TestClasses.TestNG.TC001_VerifyLoginFunctionalityTestClass">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC001_VerifyLoginFunctionalityTestClass@477b4cdf]" started-at="2022-08-04T13:23:14 GMT+05:30" name="browserlaunch" finished-at="2022-08-04T13:23:14 GMT+05:30" duration-ms="133" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at Com.Amazon.TestClasses.TestNG.TestBaseClassAmazon.browserlaunch(TestBaseClassAmazon.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC001_VerifyLoginFunctionalityTestClass@477b4cdf]" started-at="2022-08-04T13:23:14 GMT+05:30" name="setupMethod" finished-at="1970-01-01T05:30:00 GMT+05:30" duration-ms="-1659599594733" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="loginFuncionality()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC001_VerifyLoginFunctionalityTestClass@477b4cdf]" started-at="2022-08-04T13:23:14 GMT+05:30" name="loginFuncionality" finished-at="2022-08-04T13:23:14 GMT+05:30" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at Com.Amazon.TestClasses.TestNG.TestBaseClassAmazon.browserlaunch(TestBaseClassAmazon.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFuncionality -->
+        <test-method is-config="true" signature="logot()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC001_VerifyLoginFunctionalityTestClass@477b4cdf]" started-at="2022-08-04T13:23:14 GMT+05:30" name="logot" finished-at="1970-01-01T05:30:00 GMT+05:30" duration-ms="-1659599594748" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC001_VerifyLoginFunctionalityTestClass@477b4cdf]" started-at="2022-08-04T13:23:14 GMT+05:30" name="teardown" finished-at="1970-01-01T05:30:00 GMT+05:30" duration-ms="-1659599594751" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Com.Amazon.TestClasses.TestNG.TC001_VerifyLoginFunctionalityTestClass -->
+      <class name="Com.Amazon.TestClasses.TestNG.TC003_VerifyAmazonPayFunctionality">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC003_VerifyAmazonPayFunctionality@179ece50]" started-at="2022-08-04T13:23:14 GMT+05:30" name="browserlaunch" finished-at="2022-08-04T13:23:14 GMT+05:30" duration-ms="18" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at Com.Amazon.TestClasses.TestNG.TestBaseClassAmazon.browserlaunch(TestBaseClassAmazon.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC003_VerifyAmazonPayFunctionality@179ece50]" started-at="2022-08-04T13:23:14 GMT+05:30" name="setupMethod" finished-at="1970-01-01T05:30:00 GMT+05:30" duration-ms="-1659599594845" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="amazonPay()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC003_VerifyAmazonPayFunctionality@179ece50]" started-at="2022-08-04T13:23:14 GMT+05:30" name="amazonPay" finished-at="2022-08-04T13:23:14 GMT+05:30" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at Com.Amazon.TestClasses.TestNG.TestBaseClassAmazon.browserlaunch(TestBaseClassAmazon.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonPay -->
+        <test-method is-config="true" signature="logot()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC003_VerifyAmazonPayFunctionality@179ece50]" started-at="2022-08-04T13:23:14 GMT+05:30" name="logot" finished-at="1970-01-01T05:30:00 GMT+05:30" duration-ms="-1659599594866" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC003_VerifyAmazonPayFunctionality@179ece50]" started-at="2022-08-04T13:23:14 GMT+05:30" name="teardown" finished-at="1970-01-01T05:30:00 GMT+05:30" duration-ms="-1659599594869" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Com.Amazon.TestClasses.TestNG.TC003_VerifyAmazonPayFunctionality -->
+      <class name="Com.Amazon.TestClasses.TestNG.TC004_VerifyLogoutFunctionalityTestClass">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC004_VerifyLogoutFunctionalityTestClass@3b0090a4]" started-at="2022-08-04T13:23:14 GMT+05:30" name="browserlaunch" finished-at="2022-08-04T13:23:14 GMT+05:30" duration-ms="16" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at Com.Amazon.TestClasses.TestNG.TestBaseClassAmazon.browserlaunch(TestBaseClassAmazon.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC004_VerifyLogoutFunctionalityTestClass@3b0090a4]" started-at="2022-08-04T13:23:14 GMT+05:30" name="setupMethod" finished-at="1970-01-01T05:30:00 GMT+05:30" duration-ms="-1659599594897" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="logoutFunctionality()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC004_VerifyLogoutFunctionalityTestClass@3b0090a4]" started-at="2022-08-04T13:23:14 GMT+05:30" name="logoutFunctionality" finished-at="2022-08-04T13:23:14 GMT+05:30" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Users\Mayur Ambekar\eclipse-workspace\Project3_Amazon_Scenarios\Drivers\FirefoxDriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at Com.Amazon.TestClasses.TestNG.TestBaseClassAmazon.browserlaunch(TestBaseClassAmazon.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFunctionality -->
+        <test-method is-config="true" signature="logot()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC004_VerifyLogoutFunctionalityTestClass@3b0090a4]" started-at="2022-08-04T13:23:14 GMT+05:30" name="logot" finished-at="1970-01-01T05:30:00 GMT+05:30" duration-ms="-1659599594906" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Com.Amazon.TestClasses.TestNG.TC004_VerifyLogoutFunctionalityTestClass@3b0090a4]" started-at="2022-08-04T13:23:14 GMT+05:30" name="teardown" finished-at="1970-01-01T05:30:00 GMT+05:30" duration-ms="-1659599594907" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Com.Amazon.TestClasses.TestNG.TC004_VerifyLogoutFunctionalityTestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

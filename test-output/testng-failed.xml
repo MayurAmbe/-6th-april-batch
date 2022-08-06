@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="Com.Amazon.TestClasses.TestNG.TC004_VerifyLogoutFunctionalityTestClass">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="logoutFunctionality"/>
+          <include name="teardown"/>
+          <include name="logot"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- Com.Amazon.TestClasses.TestNG.TC004_VerifyLogoutFunctionalityTestClass -->
+      <class name="Com.Amazon.TestClasses.TestNG.TC003_VerifyAmazonPayFunctionality">
+        <methods>
+          <include name="amazonPay"/>
+          <include name="browserlaunch"/>
+          <include name="teardown"/>
+          <include name="logot"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- Com.Amazon.TestClasses.TestNG.TC003_VerifyAmazonPayFunctionality -->
+      <class name="Com.Amazon.TestClasses.TestNG.TC002_VerifyAddToCartFunctionality">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="teardown"/>
+          <include name="AddTocart"/>
+          <include name="logot"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- Com.Amazon.TestClasses.TestNG.TC002_VerifyAddToCartFunctionality -->
+      <class name="Com.Amazon.TestClasses.TestNG.TC001_VerifyLoginFunctionalityTestClass">
+        <methods>
+          <include name="loginFuncionality"/>
+          <include name="browserlaunch"/>
+          <include name="teardown"/>
+          <include name="logot"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- Com.Amazon.TestClasses.TestNG.TC001_VerifyLoginFunctionalityTestClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
